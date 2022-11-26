@@ -56,8 +56,7 @@ def takeCommand():
 def send_Email():
     
     email_lst = {"Shobhit":"211319@juitsolan.in","Aryan":"211306@juitsolan.in"
-                 ,"Naveen Sir":"naveen.jaglan@juitsolan.in",
-                 "Aditya":"211325@juitsolan.in"}
+                 ,"Naveen Sir":"naveen.jaglan@juitsolan.in"}
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
